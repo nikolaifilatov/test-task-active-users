@@ -1,0 +1,23 @@
+table.zebra {
+	margin: 0 auto;
+	color: #333;
+	background: white;
+	border: 1px solid gray;
+	font-size: 12pt;
+	border-collapse: collapse;
+}
+
+table.zebra thead th {
+	color: #777;
+	background: rgba(0,0,0,.1);
+}
+
+table.zebra th,
+table.zebra td {
+	padding: .5em;
+	border: 1px solid lightgrey;
+}
+
+table.zebra > tbody tr:nth-of-type(even) {
+	background: rgba(0,0,0,.05);
+}
